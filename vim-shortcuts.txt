@@ -1,0 +1,6 @@
+filSave a file when no write permissions are granted
+:w !sudo tee %
+
+:.! [command] executes an external command while you're in vim and it'll dump the output of the command into your current window
+:.! date
+
