@@ -6,7 +6,8 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
+JAVA_HOME=/usr/java/jdk1.8.0_102
 
-PATH=$PATH:$HOME/bin:/usr/java/jdk1.7.0_51/bin:/home/sstafford/mlcp-Hadoop1-1.1-1/bin:/opt/gradle/bin:/opt/groovy/bin
+PATH=$JAVA_HOME/bin:$HOME/bin:$PATH
 
 export PATH
